@@ -1,0 +1,4 @@
+/etc/nginx/conf.d/example-http.conf # location / {
+    proxy_pass  http://localhost:1325; #1325 - porthaproxy
+    
+}
